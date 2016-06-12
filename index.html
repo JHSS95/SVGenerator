@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SVGenerator</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/intro.js"></script>
+		<script src="js/numericInput.min.js"></script>
+	</head>
+	<body>
+		<nav>
+			<menu>
+				<menuitem>Home</menuitem>
+				<menuitem>O que é SVG?</menuitem>
+				<menuitem>Contato</menuitem>
+			</menu>
+		</nav>
+<header>
+	<div class="rect">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="" preserveAspectRatio="xMinYMax meet">
+			<defs>
+				<path id="engre" stroke="black" stroke-width="20" stroke-dashArray="25" fill="black" d="M400,100 Q300,100 300,200 300,300 400,300 500,300 500,200 500,100 400,100Z M400,150 Q350,150 350,200 350,250 400,250 450,250 450,200 450,150 400,150Z " fill-rule="evenodd" transform="translate(130,30) scale(0.5)"></path>
+				<path id="engreum" stroke="black" stroke-width="20" stroke-dashArray="25" fill="black" d="M400,100 Q300,100 300,200 300,300 400,300 500,300 500,200 500,100 400,100Z M400,150 Q350,150 350,200 350,250 400,250 450,250 450,200 450,150 400,150Z " fill-rule="evenodd" transform="translate(160,50) scale(0.4)"></path>
+			</defs>
+			<text x="27.5%" y="30%" font-size="150" id="first_word" fill="black">SVG
+				<tspan font-size="90" x="45%" id="second_word">enerator</tspan>
+			</text>
+			<use x="0" y="0" xlink:href="#engre" class="gira"></use>
+			<use x="-85" y="30" xlink:href="#engreum" class="giraum"></use>
+		</svg>
+	</div>
+	<p id="desc">O SVGenerator é uma ferramenta auxiliadora na criação de imagens responsivas de maneira fácil e com todo potencial do SVG.</p>
+	<div class="dica">
+		<div class="folha">
+			<p class="abc">ABC</p>
+			<p class="intro">Introdução</p>
+			<p class="clintro">Como usar a ferramenta.</p>
+		</div>
+	</div>
+	<div class="pratica">
+		<div class="folha">
+			<p class="abc">ABC</p>
+			<div class="lapis">
+				<div class="base"></div>
+				<div class="circu"></div>
+			</div>
+			<p class="intro">Desenhar</p>
+			<p class="clipratica">Use a ferramenta.</p>
+		</div>
+	</div>
+	<p class="escolha">Escolha uma das opções:</p>
+</header>
+<section class="aprenda">
+<hr class="horzum">
+	<hr class="horzdo">
+	<hr class="vertum">
+	<hr class="vertdo">
+	<div class="reso">
+		<p class="resotext">Digite a resolução desejada:</p>
+		<span class="styx">X</span><input class="x"><br>
+		<span class="styy">Y</span><input class="y"><br>
+		<button class="aplica">Aplicar</button>
+	</div>
+	<div class="salvaimg">
+		<p class="salvaimgtext">Quer que sua imagem seja responsiva?</p>
+		<button class="salvaimgsim">Sim</button>
+		<button class="salvaimgno">Não</button>
+	</div>
+	<div class="salvasvg">
+		<p class="resultsvgtext">Copie o código SVG e cole em sua página HTML.</p>
+		<div class="resultsvg" contenteditable="true"></div>
+		<button class="salvasvgbt">Fechar</button>
+	</div>
+	<div class="limpatela">
+		<p class="limpatelatext">Tem certeza que quer remover todos elementos criados?</p>
+		<button class="limpatelasim">Sim</button>
+		<button class="limpatelano">Não</button>
+	</div>
+	<div class="barralateral">
+		<p class="ferra">Ferramentas</p>
+		<div class="formas">
+			<div class="formastext">Formas</div>
+		</div>
+		<div class="transform">
+			<div class="transformtext">Transformações</div>
+		</div>
+		<div class="line">
+			<div class="linecai">
+				<div class="linesym"></div>
+			</div>
+			<p class="linetext">Linha</p>
+		</div>
+		<div class="recti">
+			<div class="rectcai">
+				<div class="rectsym"></div>
+			</div>
+			<p class="recttext">Retângulo</p>
+		</div>
+		<div class="circle">
+			<div class="circlecai">
+				<div class="circlesym"></div>
+			</div>
+			<p class="circletext">Circulo</p>
+		</div>
+		<div class="ellipse">
+			<div class="ellipsecai">
+				<div class="ellipsesym"></div>
+			</div>
+			<p class="ellipsetext">Elipse</p>
+		</div>
+		<div class="polyline">
+			<div class="polylinecai">
+				<div class="polylinesym"></div>
+			</div>
+			<p class="polylinetext">Poli-linha</p>
+		</div>
+		<div class="polygon">
+			<div class="polygoncai">
+				<div class="polygonsym"></div>
+			</div>
+			<p class="polygontext">Poligono</p>
+		</div>
+		<div class="path">
+			<div class="pathcai">
+				<div class="pathsym"></div>
+			</div>
+			<p class="pathtext">Caminho</p>
+		</div>
+		<div class="move">
+			<div class="movecai">
+				<div class="movesym"></div>
+			</div>
+			<p class="movetext">Mover</p>
+		</div>
+		<div class="rotate">
+			<div class="rotatecai">
+				<div class="rotatesym"></div>
+			</div>
+			<p class="rotatetext">Rotacionar</p>
+		</div>
+		<div class="redmi">
+			<div class="redmicai">
+				<div class="redmisym"></div>
+			</div>
+			<p class="redmitext">Redimensionar</p>
+		</div>
+		<div class="skew">
+			<div class="skewcai">
+				<div class="skewsym"></div>
+			</div>
+			<p class="skewtext">Inclinar</p>
+		</div>
+		<div class="group">
+			<div class="groupcai">
+				<div class="groupsym"></div>
+			</div>
+			<p class="grouptext">Agrupar</p>
+		</div>
+		<div class="text">
+			<div class="textcai">
+				<div class="textsym"></div>
+			</div>
+			<p class="texttext">Texto</p>
+		</div>
+		<div class="clippath">
+			<div class="clippathcai">
+				<div class="clippathsym"></div>
+			</div>
+			<p class="clippathtext">Máscara</p>
+		</div>
+		<div class="modificar">
+			<div class="modificartext">Modificar</div>
+		</div>
+		<div class="remover">
+			<div class="removertext">Remover</div>
+		</div>
+		<div class="limpar">
+			<div class="limpartext">Limpar</div>
+		</div>
+		<div class="zoom">
+			<div class="zoomtext">Zoom</div>
+		</div>
+		<div class="orga">
+			<div class="orgatext">Organizar</div>
+		</div>
+		<div class="abrir">
+			<div class="abrirtext">Recuperar</div>
+		</div>
+		<div class="salvar">
+			<div class="salvartext">Salvar</div>
+		</div>
+	</div>
+	<div class="barratopo">
+		<span class="barx">X</span><input class="inpx"><br>
+		<span class="bary">Y</span><input class="inpy"><br>
+		<button class="muda">Aplicar</button>
+		<span class="guia">Guia</span>
+		<input type="checkbox" class="guiabt">
+		<span class="coord">Coordenadas</span>
+		<span class="textmx">X</span><input class="movex" value="0"><br>
+		<span class="textmy">Y</span><input class="movey" value="0"><br>
+		<span class="coordg">Graus</span>
+		<span class="grausm">R</span><input class="graus" value="0"><br>
+		<span class="coordes">Escala</span>
+		<span class="escalamx">X</span><input class="escalax" value="1"><br>
+		<span class="escalamy">Y</span><input class="escalay" value="1"><br>
+		<span class="coordinc">Inclinar</span>
+		<span class="incmx">X</span><input class="incx" value="0"><br>
+		<span class="incmy">Y</span><input class="incy" value="0"><br>
+		<span class="coordgru">Nome do Grupo</span>
+		<span class="grum">G</span><input class="grup"><br>
+		<button class="criagru">Criar</button>
+		<span class="zm">Z</span><input class="zp" value="100"><br>
+		<button class="zbt">Zoom</button>
+		<form class="formorga">
+			<label class="cima">Enviar para cima</label>
+			<input type="radio" class="enviacima" name="cima" value="cima" checked="checked">
+			<label class="baixo">Enviar para baixo</label>
+			<input type="radio" class="enviabaixo" name="baixo" value="baixo">
+		</form>
+		<p class="conta">Conta gotas</p><button class="contagota">Pegar</button>
+		<p class="corborda">Cor da linha</p><div class="previa"></div>
+		<div class="preen">
+			<input type="range" min="0" max="255" id="red" value="0">
+			<input type="range" min="0" max="255" id="green" value="0">
+			<input type="range" min="0" max="255" id="blue" value="0">
+			<input type="checkbox" class="check"><p class="checktext">Transparente</p>
+		</div>
+		<p class="corpreen">Cor do preencimento</p><div class="previapreen"></div>
+		<div class="preenpreen">
+			<input type="range" min="0" max="255" id="redpreen" value="0">
+			<input type="range" min="0" max="255" id="greenpreen" value="0">
+			<input type="range" min="0" max="255" id="bluepreen" value="0">
+			<input type="checkbox" class="checkpreen"><p class="checktextpreen">Transparente</p>
+		</div>
+		<p class="trace">Tamanho Tracejado</p>
+		<input class="traceval" value="0">
+		<p class="linewidth">Largura Linha</p>
+		<input class="linewidthval" value="1">
+		<p class="lineopac">Opacidade Linha</p>
+		<input class="lineopacval" value="100">
+		<p class="lineend">Final da Linha</p>
+		<select class="lineendval">
+			<option value="butt">Nenhum</option>
+			<option value="round">Redondo</option>
+			<option value="square">Quadrado</option>
+		</select>
+		<p class="linecorner">Cantos da Linha</p>
+		<select class="linecornerval">
+			<option value="miter">Nenhum</option>
+			<option value="round">Redondo</option>
+			<option value="bevel">Quadrado</option>
+		</select>
+		<p class="preenopac">Opacidade Preenchimento</p>
+		<input class="preenopacval" value="100">
+		<button class="textpro">Propriedas do texto</button>
+		<div class="prot">
+			<p class="sizetext">Tamanho da fonte</p>
+			<input class="fontsize" value="15">
+			<p class="familytext">Tipo da fonte</p>
+			<select class="fontfamily">
+				<option value="Arial, Helvetica, sans-serif">Arial</option>
+				<option value="'Arial Black', Gadget, sans-serif">Arial Black</option>
+				<option value="Georgia, serif">Georgia</option>
+				<option value="'Palatino Linotype', 'Book Antiqua', Palatino, serif">Palatino</option>
+				<option value="'Times New Roman', Times, serif">Times New Rowan</option>
+				<option value="'Comic Sans MS', cursive, sans-serif">Comic Sans</option>
+				<option value="'Courier New', Courier, monospace">Courier</option>
+				<option value="Impact, Charcoal, sans-serif">Impact</option>
+				<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida</option>
+				<option value="Tahoma, Geneva, sans-serif">Tahoma</option>
+				<option value="'Trebuchet MS', Helvetica, sans-serif">Helvetica</option>
+				<option value="Verdana, Geneva, sans-serif">Verdana</option>
+				<option value="'Lucida Console', Monaco, monospace">Monaco</option>
+			</select>
+			<p class="spacetext">Espaçamento das letras</p>
+			<input class="spacesize" value="0">
+			<p class="inserttext">Insira o texto:</p>
+			<input class="textoaqui">
+			<p class="insertnew">Insira sua fonte:</p>
+			<input class="newfontlink" value="link">
+			<div class="repositorio"></div>
+		</div>
+	</div>
+	<div class="hint">
+		Dicas:<br>
+		<p class="instru"></p>
+	</div>
+	<div class="fecha"></div>
+	<div class="context">
+		<div class="retaline">Linha Reta</div>
+		<div class="curvaline">Linha Curva</div>
+	</div>
+	<div class="caixa">
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dese" preserveAspectRatio="xMinYMin meet"></svg>
+</section>
+</body>
+</html>
